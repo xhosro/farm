@@ -10,7 +10,9 @@
     touch src/server.py
     touch src/dal.py (data access layer)
 
-    uvicorn main:app --reload
+    Create a mongodb database cluster in mongodb site
+    ADD MONGODB_URI to .env
+    Create a compose.yaml for nginx that reverse proxy for frontend & backend service.
 
 npx create-react-app my-app 
 
